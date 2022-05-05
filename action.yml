@@ -1,0 +1,12 @@
+name: 'Gradle release action'
+description: 'TODO'
+author: 'Alexandrou Rousou'
+
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'Github token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

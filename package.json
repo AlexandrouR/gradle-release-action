@@ -1,0 +1,23 @@
+{
+  "name": "gradle-release-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrouR/gradle-release-action.git"
+  },
+  "author": "Alexandrou Rousou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandrouR/gradle-release-action/issues"
+  },
+  "homepage": "https://github.com/AlexandrouR/gradle-release-action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.33.4"
+  }
+}
